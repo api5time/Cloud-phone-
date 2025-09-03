@@ -1,0 +1,12 @@
+FROM budtmo/docker-android-x86-11.0
+
+# إعدادات الجهاز
+ENV DEVICE="Samsung Galaxy S6"
+ENV APPIUM=true
+ENV VNC=true
+ENV NOVNC=true
+ENV SCREEN_WIDTH=720
+ENV SCREEN_HEIGHT=1280
+ENV SCREEN_DPI=240
+
+EXPOSE 6080
